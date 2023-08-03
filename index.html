@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 2</title>
+    Digite sua idade: <input id="idade" type="number">
+    <button onclick="teste()">Verificar</button>
+
+    <script type="text/javascript">
+        function teste(){
+            var num = parseFloat(document.getElementById("idade").value);
+            if(num >= 18)
+            alert( "Pode dirigir");
+
+            else if( num < 18)
+            alert( "Não pode dirigir") ;
+
+            else
+            alert("Idade não Informada");
+        }
+
+    </script>
+
+
+
+</head>
+<body>
+    
+</body>
+</html>
